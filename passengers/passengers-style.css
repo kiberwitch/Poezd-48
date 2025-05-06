@@ -1,0 +1,270 @@
+.step-active {
+    background: #ffa800;
+}
+  
+  .passenger-container {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    width: 700px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+  .passenger-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 18px 24px 12px 18px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
+    position: relative;
+    gap: 10px;
+  }
+  
+  .passenger-close {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    font-size: 22px;
+    color: #888;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .passenger-main-section {
+    padding: 24px 18px 18px 18px;
+  }
+  
+  .passenger-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 18px;
+  }
+  
+  .passenger-label {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 6px;
+    display: block;
+  }
+  
+  .passenger-input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .passenger-select {
+    width: 100%;
+    max-width: 180px;
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    box-sizing: border-box;
+  }
+  
+  .passenger-gender-row {
+    align-items: flex-end;
+    gap: 10px;
+  }
+  
+  .passenger-gender-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .passenger-gender-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .passenger-gender-btn {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 8px 26px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    cursor: pointer;
+    transition: border 0.2s, background-color 0.2s, color 0.2s;
+    user-select: none;
+  }
+  
+  .passenger-gender-btn--active {
+    background-color: #FFA800 !important;
+    border-color: #FFA800 !important;
+    color: #fff !important;
+  }
+  
+  .passenger-input--birthdate {
+    max-width: 140px;
+  }
+  
+  .passenger-checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #333;
+    margin-top: 8px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .passenger-checkbox {
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+  
+  .passenger-bottom-section {
+    border-top: 1px solid #e0e0e0;
+    padding: 18px;
+    margin-top: 18px;
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .passenger-bottom-row {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .passenger-bottom-row--type {
+    flex: 2 1 180px;
+  }
+  
+  .passenger-bottom-row--series {
+    flex: 1 1 100px;
+  }
+  
+  .passenger-bottom-row--number {
+    flex: 2 1 140px;
+  }
+  
+  .passenger-input--number {
+    max-width: 120px;
+  }
+  
+  .passenger-next-btn {
+    background: #fff;
+    border: 2px solid #222;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 12px 32px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    margin-left: auto;
+    user-select: none;
+    white-space: nowrap;
+  }
+  
+  .passenger-next-btn:hover {
+    background: #222;
+    color: #fff;
+  }
+  
+  /* Responsive */
+  @media (max-width: 800px) {
+    .passenger-container {
+      width: 98%;
+    }
+    .passenger-row,
+    .passenger-bottom-section {
+      flex-direction: column;
+      gap: 8px;
+    }
+    .passenger-bottom-section {
+      align-items: stretch;
+    }
+  }
+  
+
+  
+  .passenger-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 16px 18px;
+    font-size: 18px;
+    color: #2d2d2d;
+    margin: 18px 0 0 0;
+    min-height: 48px;
+    box-shadow: none;
+    position: relative;
+    
+    margin-left: 160px;
+    width: 700px;
+  }
+  
+  .passenger-card:first-child {
+    margin-top: 20px;
+  }
+  
+  .passenger-card__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .passenger-card__icon--left {
+    margin-right: 10px;
+  }
+  
+  .passenger-card__icon--right {
+    margin-left: auto;
+  }
+  
+  .passenger-card__text {
+    font-size: 17px;
+    color: #2d2d2d;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .passenger-card--add {
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .passenger-card--add .passenger-card__text {
+    color: #2d2d2d;
+  }
+  
+  .passenger-card--add .passenger-card__icon--right svg {
+    display: block;
+  }
+  
+
+  .next-btn {
+    width: 222px;
+    height: 60px;
+    background: #939298;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    margin-top: 100px;
+    margin-left: 650px;
+    transition: background 0.2s;
+  }
