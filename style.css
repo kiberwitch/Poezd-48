@@ -23,7 +23,7 @@ a {
 /* ==================== LAYOUT STYLES ==================== */
 .main-container {
   display: grid;
-  grid-template-columns: minmax(300px, 733px) 1fr;
+  grid-template-columns: minmax(300px, 533px) 1fr;
   min-height: 100vh;
   background: #f6f6f6;
   padding-right: 5px;
@@ -266,7 +266,7 @@ a {
   padding: 24px 18px 18px 18px;
   width: 365px;
   height: 1012px;
-  margin: 95px 355px;
+  margin: 95px 200px;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
   display: flex;
   flex-direction: column;
@@ -598,7 +598,7 @@ a {
 
 /* ==================== RECENT TICKETS WIDGET ==================== */
 .recent-tickets-widget {
-  margin-left: 355px;
+  margin-left: 200px;
   background: #f8f7fa;
   border-radius: 6px;
   margin-top: 32px;
