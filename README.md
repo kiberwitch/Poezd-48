@@ -1,2 +1,2 @@
-# Poezd-46
+# Train-booking-passengers
 https://kiberwitch.github.io/Train-booking-passengers/
